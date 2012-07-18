@@ -1,0 +1,29 @@
+.navBar{
+  
+  background-image: url('/images/navBar.png');
+  
+  -webkit-box-shadow: 2px 1px 15px 0px rgba(0,0,0,0.9);
+  box-shadow: 2px 1 px 15 px 10px rgba(0,0,0,0.9);
+  position:fixed;
+  margin:0;
+  top:0;
+  left:0;
+  padding-left:20px;
+  padding-right:20px;
+  width: 20%;
+  height:100%;
+  
+  .links{
+    color: white;
+    .resume{
+       float: right;
+    }
+    .about{
+       float: left;
+    }
+    .blog{
+       text-align: center;
+    }
+  }
+   
+}
