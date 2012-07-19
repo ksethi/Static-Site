@@ -1,5 +1,6 @@
 #banner{
-  	background-image: url('/blog/images/navBar.png');
+  	font-family: 'Nunito', sans-serif;
+	background-image: url('/blog/images/navBar.png');
 	padding: 0 5;
 	top: 385px;
 	height:100%;
@@ -30,7 +31,7 @@
 		text-indent: -9999px;
 	}
 	.container{
-		height:65px;
+		height:70px;
 		width: 290px;
 		overflow: hidden;
 		position: relative;
