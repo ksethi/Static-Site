@@ -13,15 +13,25 @@
   width: 20%;
   height:100%;
   
-  .links{
-    color: white;
-    .resume{
+  .page-links{
+    .link{
+     -moz-transition: -moz-transform .1s;
+     -webkit-transition: -webkit-transform .1s;
+     -o-transition: -o-transform .1s;
+    }
+    color: #fff;
+    .link:hover {
+     transform: scale3d(1.1,1.1,1);
+     -webkit-transform: scale3d(1.1, 1.1,1);
+     -moz-transform: scale3d(1.1,1.1,1);
+    }
+    #resume{
        float: right;
     }
-    .about{
+    #about{
        float: left;
     }
-    .blog{
+    #blog{
        text-align: center;
     }
   }
@@ -29,6 +39,16 @@
     a{
      padding-left: 1px;
      padding-right: 1px;
+    }
+    img {
+     -moz-transition: -moz-transform .1s;
+     -webkit-transition: -webkit-transform .1s;
+     -o-transition: -o-transform .1s;
+    }
+    img:hover {
+     transform: scale3d(1.1,1.1,1);
+     -webkit-transform: scale3d(1.1, 1.1,1);
+     -moz-transform: scale3d(1.1,1.1,1);
     }
   }
    
