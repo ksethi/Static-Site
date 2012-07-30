@@ -2,7 +2,7 @@
   	font-family: 'Nunito', sans-serif;
 	background-image: url('/blog/images/navBar.png');
 	padding: 0 5;
-	top: 65%;
+	top: 70%;
 	height:100%;
 	width:20%;
 	text-align: left;
@@ -27,12 +27,15 @@
 		bottom: 0;
 	}
 	.loading{
-		background: image-url('loading_pacman.gif') center no-repeat;
+		background: image-url('spinner.gif') center no-repeat;
 		text-indent: -9999px;
 	}
 	.container{
+		border: 1px solid #A68693;
+		-webkit-border-radius: 5px;
+        	border-radius: 5px;
 		height:70px;
-		width: 290px;
+		width: 260px;
 		overflow: hidden;
 		position: relative;
 		display: none;
@@ -40,11 +43,12 @@
 			list-style: none;
 			position: absolute;
 			top: 0;
-			right: 1px;
+			right: 3px;
 			width: 100%;
 			li{
 				height: 70px;
-				padding-right: 30px;
+				padding-left: 5px;
+			        margin-right: 10px;
 				position: relative;
 				small{
 					position: relative;
