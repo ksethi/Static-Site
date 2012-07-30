@@ -1,14 +1,17 @@
-article{
-	
+article{	
 	margin-top:20px;
 	top: 20px;
-	-webkit-border-radius: 15px;
-        border-radius: 15px;
-	-webkit-box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.9);
-	box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.9);
+	-webkit-border-radius: 10px;
+        border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 5px 5px #A17C8B;
+	box-shadow: 0px 0px 5px 5px #A17C8B;
+        -moz-box-shadow: 0px 0px 5px 5px #A17C8B;
 	background-image: url('/blog/images/background.png');
-	border: 1px solid #A68693;
-	padding: 0px 30px;
+	border-top: 1px solid #A68693;
+        border-bottom: 1px solid #A68693;
+	border-left: 0px;
+        border-right: 0px;
+        padding: 0px 30px;
 	position: relative;
 	@media screen and (max-width: 800px){
 		padding-bottom: 15px;
