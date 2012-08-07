@@ -32,13 +32,13 @@
      font-weight: bold;
      font-family: 'Righteous' , cursive;
      text-decoration: none;
-	border:hidden 2px #000000;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 4px 5px 19px #000000;
-	-webkit-box-shadow: 4px 5px 19px #000000;
-	box-shadow: 4px 5px 19px #000000;
+     /*border:hidden 2px #000000;*/
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     -moz-box-shadow: 4px 5px 19px #000000;
+     -webkit-box-shadow: 4px 5px 19px #000000;
+     box-shadow: 4px 5px 19px #000000;
     }
     .link:hover {
      transform: scale3d(1.1,1.1,1);
