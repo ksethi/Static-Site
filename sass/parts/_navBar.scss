@@ -12,7 +12,7 @@
   padding-right:20px;
   width: 20%;
   height:100%;
-  h1 { font-family: 'Righteous', cursive; }
+  h1 { font-family: 'Righteous', cursive; text-shadow:8px 6px 10px #075252; }
   .page-links{  
     ul{
       list-style-type: none;
@@ -32,19 +32,22 @@
      font-weight: bold;
      font-family: 'Righteous' , cursive;
      text-decoration: none;
-	border:solid 2px #000000;
+	border:hidden 2px #000000;
 	-moz-border-radius-topleft: 0px;
-	-moz-border-radius-topright:75px;
-	-moz-border-radius-bottomleft:75px;
+	-moz-border-radius-topright:25px;
+	-moz-border-radius-bottomleft:25px;
 	-moz-border-radius-bottomright:0px;
 	-webkit-border-top-left-radius:0px;
-	-webkit-border-top-right-radius:75px;
-	-webkit-border-bottom-left-radius:75px;
+	-webkit-border-top-right-radius:25px;
+	-webkit-border-bottom-left-radius:25px;
 	-webkit-border-bottom-right-radius:0px;
 	border-top-left-radius:0px;
-	border-top-right-radius:75px;
-	border-bottom-left-radius:75px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
 	border-bottom-right-radius:0px;
+	-moz-box-shadow: 4px 5px 19px #000000;
+	-webkit-box-shadow: 4px 5px 19px #000000;
+	box-shadow: 4px 5px 19px #000000;
     }
     .link:hover {
      transform: scale3d(1.1,1.1,1);
