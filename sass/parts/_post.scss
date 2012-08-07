@@ -1,22 +1,24 @@
 .post{
-	margin-left:20%;
+	margin-left:5%;
 	width: 80%;
 	h1.title, .entry-content{
 		@media screen and (max-width: 800px){
 			margin-left: 0;
 		}
 	}
+	.title {
+		margin-left:10%;
+	}
 	.entry-content{
 		width: 70%;
 	}
 	.meta{
+		width: 100%;
+		top:0;
 		position: absolute;
-		top: 30px;
 		right: 2px;
-		line-height: 2;
 		font-size: 0.9em;
 		color: $color-gray02;
-		width: 170px;
 		@media screen and (max-width: 800px){
 			margin-top: 15px;
 			position: static;
@@ -29,20 +31,28 @@
 		.date, .tags, .comments{
 			padding-left: 30px;
 			position: relative;
-			&:before{
-				color: $color-gray03;
-				font: 1.3em $font-icon;
-				line-height: 1.6em;
-				position: absolute;
-				left: 0;
-			}
 			@media screen and (max-width: 800px){
 				@include inline-block;
 				margin-right: 30px;
 			}
 		}
-		/*.date:before{content: "\f073";}*/
-		.tags:before{content: "\f02c";}
-		.comments:before{content: "\f075";}
+		.date{
+			text-align: right;
+			top: 5px;
+			margin-right: 5%;
+		}
+		.comments{
+			margin-left: 2%;
+			position: absolute;
+			top: 10px;
+			padding-left: 5px;
+		}
+		.tags{
+			text-align: right;
+			position: absolute;
+			top: 5px;
+			width: 100%;
+			margin-left: -20%;
+		}
 	}
 }

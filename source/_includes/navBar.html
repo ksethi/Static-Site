@@ -17,9 +17,24 @@
 <br>
 <div class="page-links">
 <ul>
-<li><div id="resume" class="link"><a href="http://kjsethi.com/resume">RESUME</a></div></li>
-<li><div id="about" class="link"><a href="http://kjsethi.com/about">ABOUT</a></div></li>
-<li><div id"blog" class="link"><a href="http://kjsethi.com/">BLOG</a></div></li>
+<li><div id="resume" class="link"><a href="http://kjsethi.com/resume" style="color:#666">RESUME</a></div></li>
+<li><div id="about" class="link"><a href="http://kjsethi.com/about" style ="color:#666">ABOUT</a></div></li>
+<li><div id"blog" class="link"><a href="http://kjsethi.com/" style="color:#666">BLOG</a></div></li>
 </ul>
 </div>
+{% if site.twitter_user %}
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/{{ site.twitter_user }}">{{ site.twitter_user }}</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="{{ root_url }}/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('{{ site.twitter_user }}', {{ site.twitter_tweet_count }}, {{ site.twitter_show_replies }});
+	})(jQuery);
+</script>
+{% endif %}
 </html>

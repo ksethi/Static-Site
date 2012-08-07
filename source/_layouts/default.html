@@ -4,7 +4,6 @@
 <body>
 	<div class="navBar">
 	{% include navBar.html %}
-	{% include banner.html %}
 	</div>
 	<div id="content" class="inner">{{ content | expand_urls: root_url }}</div>
 	<footer id="footer" class="inner">{% include footer.html %}</footer>
