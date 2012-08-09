@@ -8,19 +8,21 @@
 	}
 	.title {
 		margin-left:2%;
+		z-index:-2;
 	}
 	.center{
 	  margin-left:auto;
 	  margin-right:auto;
 	}
+	.right {float: right;}
+	.left {float: left;}
 	.entry-content{
 		p{text-align:justify;}
 		margin-left:2%;
 		width: 80%;
 		line-height: 150%;
 		img {
-		  padding-top: 5px;
-		  padding-bottom: 5px;
+		  padding: 10px;
 		}
 		h2{
 		  padding-top:5px;
@@ -28,6 +30,7 @@
 		}
 	}
 	.meta{
+		z-index:-1;
 		left: 65%;
 		width: 35%;
 		height:100%;
