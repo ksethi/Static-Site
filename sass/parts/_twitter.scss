@@ -1,25 +1,17 @@
 #banner{
 	margin-top: 5%;
-	margin-left:0;
+	margin-left:auto;
+	margin-right:auto;
   	font-family: 'Nunito', sans-serif;
-	background-image: url('/blog/images/navBar.png');
+	background-image: url('/images/navBar.png');
 	padding: 0 5;
 	height:100%;
 	width:20%;
 	text-align: left;
 	position: fixed;
 	display: none;
-	&:hover{
-		a{
-			color: $color-main;
-		}
-	}
 	a{
 		color: $color-gray02;
-		@include transition(0.3s);
-		&:hover{
-			text-decoration: underline;
-		}
 	}
 	small{
 		position: relative;
@@ -28,7 +20,7 @@
 		bottom: 0;
 	}
 	.loading{
-		background: image-url('spinner.gif') center no-repeat;
+		background: image-url('loading_gray.gif') center no-repeat;
 		text-indent: -9999px;
 	}
 	.container{

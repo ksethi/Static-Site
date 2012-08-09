@@ -3,7 +3,6 @@
 	<div class="entry-content">
 		{{ content | excerpt }}
 		{% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-		{% if excerpted == 'true' %}<a href="{{ root_url }}{{ post.url }}" class="more-link">{{ site.excerpt_link }}</a>{% endif %}
 	</div>
 {% else %}
 	<h1 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
