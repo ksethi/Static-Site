@@ -15,19 +15,30 @@ html, body {
 
 .header{
   border-bottom: solid 2px #666;
-  margin-left:10%;
-  margin-right:10%;
+  margin-left:15%;
+  margin-right:15%;
 }
 
 h1{
  text-align:center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+h2,h3{
+ padding-top: 5px;
  padding-bottom: 5px;
 }
 
 .content{
-  margin-left:10%;
-  margin-right:10%;
+  margin-left:15%;
+  margin-right:15%;
 }
+
+.underBorder{
+  border-bottom: solid 2px #666;
+}
+
 .left
 {
   float: left;

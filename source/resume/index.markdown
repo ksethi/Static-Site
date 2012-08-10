@@ -10,23 +10,57 @@ title: "Resume"
 <body>
 <div class="header">
 <h1>Kshitij Sethi</h1>
-<div class="content">
 <div class="left">www.kjsethi.com</div>
 <div class="right">kj.sethi@gmail.com</div> 
 <div class="center">519-500-8293 (Cell)</div>
-</div>> 
 </div>
 
 <div class="content">
-<h3><b><u>SUMMARY OF QUALIFICATIONS</u></b></h3>
+<h2>About Me</h2>
+<p class="underBorder">
+During my time as a Software Engineering student, I have worked at several organizations under different software development methodologies.
+Through my experience, I have come to prefer the agile development methodology.
+I enjoy the close cooperation between developers, designers and product managers in an iterative process to develop a compelling product.
+I particularly enjoy working in the mobile and web domains.
+In my spare time I enjoy experimenting with new technologies, blogging, reading, and watching far too many TV shows.
+</p>
+
+
+<h3><b><u>WORK EXPERIENCE</u></b></h3>
+<div class="underBorder">
 
 <p>
-<h4><b><u>Skills Summary</u></b></h4>
+<b>Product Management Co-op</b>,
+Xtreme Labs Inc., Toronto, ON, Apr. 2012 - Aug. 2012
+</p>
+
+<p>
+<b>Agile Engineer</b>,
+Xtreme Labs Inc., Toront, ON, Sep. 2011 - Dec. 2011
+</p>
+
+<p>
+<b>QA Analyst</b>,
+Trapeze Software Inc., Mississauga, ON, Jan. 2011 - Apr. 2011
 <ul>
-<li>Effective teamwork, time management and organizational skills developed through work and volunteer experience.</li>
-<li>Works well under pressure with minimal supervision demonstrated through projects during previous work term.</li>
-<li>Excellent interpersonal skills enhanced through regular interaction with managers during progress update presentations.</li>
+<li>Implemented test cases in C# to verify application features</li>
+<li>Tested using Selenium and Selenium Grid</li>
+<li>Improved test automation framework using C# and Design Patterns.</li>
+<li>Created a tool to execute multiple SQL queries with support for variable modification</li>
 </ul>
+</p>
+
+<p>
+<b>Programmer Trainee</b>,
+Inchcape Shipping Services, Dubai, United Arab Emirates, May 2010-Aug. 2010           
+<ul>
+<li>Designed and implemented an Asset Management System to maintain companys electronic assets.</li>
+<li>Implemented using VB.Net, SQL and Microsoft Visual Studio 2008</li>
+<li>Completed project independently meeting all project constraints.</li>
+</ul>
+</p>
+<p>
+</div>
 
 <h4><b><u>Programming Languages</u></b></h4>
 <ul>
@@ -88,69 +122,6 @@ Introduction to the Methods of Software Engineering, Sep. 2009  Dec. 2009
 <p>
 <b>Ontario Secondary School Diploma</b>,Mentor College, Mississauga, ON, Jun. 2009 
 </p>
-
-<h3><b><u>WORK EXPERIENCE</u></b></h3>
-
-<p>
-<b>QA Analyst</b>,
-Trapeze Software Inc., Mississauga, ON, Jan. 2011- Apr. 2011
-<ul>
-<li>Implemented test cases in C# to verify application features</li>
-<li>Tested using Selenium and Selenium Grid</li>
-<li>Improved test automation framework using C# and Design Patterns.</li>
-<li>Created a tool to execute multiple SQL queries with support for variable modification</li>
-</ul>
-</p>
-
-<p>
-<b>Programmer Trainee</b>,
-Inchcape Shipping Services, Dubai, United Arab Emirates, May 2010-Aug. 2010           
-<ul>
-<li>Designed and implemented an Asset Management System to maintain companys electronic assets.</li>
-<li>Implemented using VB.Net, SQL and Microsoft Visual Studio 2008</li>
-<li>Completed project independently meeting all project constraints.</li>
-</ul>
-</p>
-<p>
-<b>Camp Counsellor</b>,
-MC Day Camp, Mississauga, ON, Dec.2008, Mar. 2009
-<ul>
-<li>Organized and managed sports activities for children ensuring that they enjoyed an exciting but safe time at the camp.</li>
-<li>Managed a staff of volunteers ensuring that children were never left unattended.</li>
-</ul>
-</p>
-
-<h3><b><u>VOLUNTEER EXPERIENCE</u></b></h3>
-
-<b>Orientation Week Leader</b>,
-University of Waterloo, Waterloo, ON, Sep. 2010
-<ul>
-<li>Supervised first years during events ensuring they remained safe.</li>
-<li>Aided in the general organization and security of orientation week.</li>
-</ul>
-
-<b>Team Member</b>,
-Mentor College Take Action Group (Free the Children), Mississauga, ON, Sep. 2008- Jun. 2009
-<ul>
-<li>Worked with groups of people to organize fundraisers.</li>
-<li>Projects included organizing bake sales, a corn roast and a Valentines Day semi-formal.</li>
-</ul>
-
-<h3><b><u>VOLUNTEER EXPERIENCE</u></b></h3>
-
-<b>Orientation Week Leader</b>,
-University of Waterloo, Waterloo, ON, Sep. 2010
-<ul>
-<li>Supervised first years during events ensuring they remained safe.</li>
-<li>Aided in the general organization and security of orientation week.</li>
-</ul>
-
-<b>Team Member</b>,
-Mentor College Take Action Group (Free the Children), Mississauga, ON, Sep. 2008- Jun. 2009
-<ul>
-<li>Worked with groups of people to organize fundraisers.</li>
-<li>Projects included organizing bake sales, a corn roast and a Valentines Day semi-formal.</li>
-</ul>
 
 <h3><b><u>AWARDS AND CERTIFICATION</u></b></h3>
 
