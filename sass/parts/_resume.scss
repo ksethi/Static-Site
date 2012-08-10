@@ -8,7 +8,7 @@
 
 html, body {
   background-image: none;
-  background-color: white;
+  background-color: #fff;
   width: 100%;
   height: 100%;
 }
@@ -20,19 +20,27 @@ html, body {
 }
 
 h1{
+ color: #666;
  text-align:center;
  padding-top: 10px;
  padding-bottom: 10px;
 }
 
-h2,h3{
+h2,h3 { color: #666 }
+
+h2,h3,p,b{
  padding-top: 5px;
  padding-bottom: 5px;
 }
 
+p,ul,li{ color: #000; }
 .content{
   margin-left:15%;
   margin-right:15%;
+}
+
+#about, #work, #tech, #interests, #education, #awards{
+  border-bottom:solid 2px #666;
 }
 
 .underBorder{

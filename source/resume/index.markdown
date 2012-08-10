@@ -10,12 +10,14 @@ title: "Resume"
 <body>
 <div class="header">
 <h1>Kshitij Sethi</h1>
+<p>
 <div class="left">www.kjsethi.com</div>
 <div class="right">kj.sethi@gmail.com</div> 
 <div class="center">519-500-8293 (Cell)</div>
+</p>
 </div>
 
-<div class="content">
+<div id="about" class="content">
 <h2>About Me</h2>
 <p class="underBorder">
 During my time as a Software Engineering student, I have worked at several organizations under different software development methodologies.
@@ -24,19 +26,30 @@ I enjoy the close cooperation between developers, designers and product managers
 I particularly enjoy working in the mobile and web domains.
 In my spare time I enjoy experimenting with new technologies, blogging, reading, and watching far too many TV shows.
 </p>
+</div>
 
-
-<h3><b><u>WORK EXPERIENCE</u></b></h3>
-<div class="underBorder">
-
+<div id="work" class="content">
+<h2>Work Experience</h2>
 <p>
 <b>Product Management Co-op</b>,
 Xtreme Labs Inc., Toronto, ON, Apr. 2012 - Aug. 2012
+<ul>
+<li>Defined the scope of incoming projects and estimated project lengths</li>
+<li>Helped manage teams across multiple projects</li>
+<li>Assisted clients in identifying and prioritizing features</li>
+<li>Developed scripts to mine data and create rolling statistics on incoming projects</li>
+</ul>
 </p>
 
 <p>
 <b>Agile Engineer</b>,
-Xtreme Labs Inc., Toront, ON, Sep. 2011 - Dec. 2011
+Xtreme Labs Inc., Toronto, ON, Sep. 2011 - Dec. 2011
+<ul>
+<li>Created and iPad game in a team of 4 developers using the Cocos2D UI framework</li>
+<li>Customized the Cocos-Denshions library to provide seamless music transitions across multiple files</li>
+<li>Developed models to parse JSON feeds to generate game levels</li>
+<li>Twistile is available in the AppStore</li>
+</ul>
 </p>
 
 <p>
@@ -62,82 +75,78 @@ Inchcape Shipping Services, Dubai, United Arab Emirates, May 2010-Aug. 2010
 <p>
 </div>
 
-<h4><b><u>Programming Languages</u></b></h4>
-<ul>
-<li>C#: 4 months of experience through full time development at Trapeze Software Inc.</li>
-<li>SQL: 1 year experience through development during work terms.</li>
-<li>C99 and C++: 1 year experience through university courses and assignments</li>
-<li>Java: 1 year experience  self-educated, enhanced through course assignments</li>
-<li>VB.Net: 4 months of experience through full time development during work term.</li>
-<li>Visual Basic: 3 years of experience through high school courses and personal projects.</li>
-<li>Working knowledge of XML, AJAX, Ant, Scheme, JavaScript and HTML.</li>
-</ul>
-</p>
-
-
+<div id="tech" class="content">
+<h2>Technical Skills</h2>
 <p>
-<h4><b><u>Computer Proficiency</u></b></h4>
 <ul>
-<li>Experience with Linux, Mac OS X and Windows operating systems.</li>
-<li>Development Environments: Microsoft Visual Studio 2008, Netbeans, Dev C++, Xcode</li>
-<li>Relevant Applications: Selenium, Selenium Grid, Subversion, Microsoft SQL Server 2008, Microsoft Access, Crystal Reports 10, Adobe Photoshop CS 4, Microsoft Visio</li>
+<li><b>Programming Languages:</b> iOS (UIKit and Cocos2D), C (Embedded), C++ (GTK and Xlib), C#, Java (Android SDK and Swing) , Javascript</li>
+<li><b>Development Environments:</b> Microsoft Visual Studio 2010, Eclipse, Xcode, Vim, Netbeans</li>
+<li><b>Relevant Applications:</b> Selenium, Selenium Grid, Subversion, Git, Microsoft SQL Server 2008, SQL Lite</li>
 </ul>
 </p>
+</div>
 
-<h3><b><u>EDUCATION</u></b></h3>
-
+<div id="education" class="content">
+<h2>Education</h2>
 <p>
 <b>Candidate for Bachelor of Software Engineering</b>, Co-operative Program, University of Waterloo, Waterloo, ON, Sep. 2009  present
 </p>
 
+<p>
 <b>MIPS Assembler and Wool Compiler</b>, 
 Foundations of Sequential Programs, Sep. 2010 Dec.2010
 <ul>
 <li>Developed an assembler for a subset of the MIPS assembly language</li>
 <li>Developed a compiler for the wool language (a subset of Java/C)</li>
 </ul>
+</p>
 
+<p>
 <b>Motorola 68k/Coldfire Board Calculator and Timer</b>, 
 Digital Computers, Sep. 2010Dec.2010
 <ul>
 <li>Designed and implemented a calculator and timer application</li>
 <li>Developed using the Coldfire assembly language</li>
 </ul>
+</p>
 
+<p>
 <b>Cyclone II FBGA Board Ping Pong Game</b>,
 Digital Circuits and Systems, Jan. 2010 Apr. 2010
 <ul>
 <li>Program was developed using VHDL.</li>
 <li>Altera Quartus II software was used for waveform simulations.</li>
 </ul>
+</p>
 
+<p>
 <b>RCX LEGO Robot Project</b>,
 Introduction to the Methods of Software Engineering, Sep. 2009  Dec. 2009
 <ul>
 <li>Designed and implemented using Not Quite C.</li>
 <li>Effectively co-programmed the LEGO robot to traverse a variety of mazes using Brick IDE software.</li>
 </ul>
-
-
-<p>
-<b>Ontario Secondary School Diploma</b>,Mentor College, Mississauga, ON, Jun. 2009 
 </p>
+</div>
 
-<h3><b><u>AWARDS AND CERTIFICATION</u></b></h3>
-
+<div id="awards" class="content">
+<h2>Awards and Certifications</h2>
 <ul>
 <li>Presidents Scholarship, University of Waterloo, Waterloo, ON, May 2009</li>
 <li>Third place Ontario Mock Trial Championships, Ontario Bar Association (OBA), ON, Apr. 2009</li>
 <li>School First Place 2008 Physics Contest, Ontario Association for Physics Teachers, ON, May 2008</li>
 <li>Received academic honors in high school through several subject achievement awards.</li>
 </ul>
+</h2>
+</div>
 
-
-<h3><b><u>INTERESTS</u></b></h3>
-
+<div id="interests" class="content">
+<h2>Personal Interests</h2>
+<p>
 <ul>
 <li>Playing cricket, computer gaming, law. </li>
 </ul>
+</p>
 </div>
 </body>
 
