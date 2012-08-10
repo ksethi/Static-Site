@@ -3,49 +3,21 @@ title: "Resume"
 ---
 <html>
 <head>
-<title>Kshitij Sethi Resume</title>
-<STYLE TYPE="text/css">
-<!--
-* {
-  outline:none;
-  border-style: none;
-  text-decoration: none;
-  text-transform: none;
-  text-shadow: none;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
-.indented
-   {
-   background-image:url('background.png');
-   padding-left: 30pt;
-   padding-right: 30pt;
-   }
-   
--->
-</STYLE>
+<link href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+<title>Resume - Kshitij Sethi</title>
 </head>
 
 <body>
-<div class="indented">
-<p>
-<center>
-<h1><b><u>KSHITIJ SETHI</u></b></h1>
-2B, Software Engineering <br>
-University of Waterloo ID# 20334607 <br>
-<b>Permanent Address</b> <br>
-Suite 1702, Building 1, 300 Regina St. N <br>
-Waterloo, Ontario, N2J 3B8 <br>
-ksethi@engmail.uwaterloo.ca <br>
-519-500-8293 (Cell) <br>
-</center>
-</p>
-<hr />
+<div class="header">
+<h1>Kshitij Sethi</h1>
+<div class="content">
+<div class="left">www.kjsethi.com</div>
+<div class="right">kj.sethi@gmail.com</div> 
+<div class="center">519-500-8293 (Cell)</div>
+</div>> 
+</div>
 
+<div class="content">
 <h3><b><u>SUMMARY OF QUALIFICATIONS</u></b></h3>
 
 <p>
@@ -84,7 +56,6 @@ ksethi@engmail.uwaterloo.ca <br>
 <b>Candidate for Bachelor of Software Engineering</b>, Co-operative Program, University of Waterloo, Waterloo, ON, Sep. 2009  present
 </p>
 
-<div class="indented">
 <b>MIPS Assembler and Wool Compiler</b>, 
 Foundations of Sequential Programs, Sep. 2010 Dec.2010
 <ul>
@@ -113,7 +84,6 @@ Introduction to the Methods of Software Engineering, Sep. 2009  Dec. 2009
 <li>Effectively co-programmed the LEGO robot to traverse a variety of mazes using Brick IDE software.</li>
 </ul>
 
-</div>
 
 <p>
 <b>Ontario Secondary School Diploma</b>,Mentor College, Mississauga, ON, Jun. 2009 
@@ -197,7 +167,6 @@ Mentor College Take Action Group (Free the Children), Mississauga, ON, Sep. 2008
 <ul>
 <li>Playing cricket, computer gaming, law. </li>
 </ul>
-
 </div>
 </body>
 
