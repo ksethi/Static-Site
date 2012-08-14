@@ -147,20 +147,24 @@ Foundations of Sequential Programs, Sep. 2010 - Dec. 2010
 
 <div id="awards" class="content">
 <h2>Awards and Certifications</h2>
+<p>
 <ul>
 <li>President's Scholarship, University of Waterloo, Waterloo, ON, May 2009</li>
 <li>Third place Ontario Mock Trial Championships, Ontario Bar Association (OBA), ON, Apr. 2009</li>
 <li>School First Place 2008 Physics Contest, Ontario Association for Physics Teachers, ON, May 2008</li>
 <li>Received academic honors in high school through several subject achievement awards.</li>
 </ul>
-</h2>
+</p>
 </div>
 
 <div id="interests" class="content">
 <h2>Personal Interests</h2>
 <p>
 <ul>
-<li>Playing cricket, computer gaming, law. </li>
+<li class="column1">Mobile App Development</li>
+<li class="column1">Watching TV Shows</li>
+<li class="column2 reset">Cricket</li>
+<li class="column2">Reading</li> 
 </ul>
 </p>
 </div>

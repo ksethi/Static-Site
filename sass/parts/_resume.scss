@@ -23,9 +23,9 @@ html, body {
 
   h1{
     color: #666;
-    text-align:center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }  
 
   h2,h3 { color: #666 }
@@ -45,6 +45,9 @@ html, body {
     border-bottom:solid 2px #666;
   }  
 
+  .column1{ margin-left: 0;}
+  .column2{ margin-left: 50%;}
+  .reset { margin-top: -2.4em;}
   .left
   {
     float: left;
