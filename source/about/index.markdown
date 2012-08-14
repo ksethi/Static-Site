@@ -16,7 +16,7 @@ During my spare time, I enjoy reading and watching tv shows. I particularly enjo
 During my time at Waterloo I have taken several interesting courses.<br>
 These include:<br>
 <ul>
-<<li>CS 341: Algorithms</li>
+<li>CS 341: Algorithms</li>
 <li>CS 349: User Interfaces</li>
 <li>SE 350: Operating Systems</li>
 <li>CS 240: Data Structures and Data Management</li>
