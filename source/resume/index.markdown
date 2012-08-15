@@ -49,7 +49,7 @@ Xtreme Labs Inc., Toronto, ON, Sep. 2011 - Dec. 2011
 <li>Created and iPad game in a team of 4 developers using the Cocos2D UI framework</li>
 <li>Customized the Cocos-Denshions library to provide seamless music transitions across multiple files</li>
 <li>Developed models to parse JSON feeds to generate game levels</li>
-<li>Twistile is available in the AppStore</li>
+<li>Twistile is available in the App Store</li>
 </ul>
 </p>
 
@@ -58,8 +58,8 @@ Xtreme Labs Inc., Toronto, ON, Sep. 2011 - Dec. 2011
 Trapeze Software Inc., Mississauga, ON, Jan. 2011 - Apr. 2011
 <ul>
 <li>Implemented test cases in C# to verify application features</li>
-<li>Tested using Selenium and Selenium Grid</li>
-<li>Improved test automation framework using C# and Design Patterns.</li>
+<li>Executed test cases using Selenium and Selenium Grid</li>
+<li>Improved test automation framework</li>
 <li>Created a tool to execute multiple SQL queries with support for variable modification</li>
 </ul>
 </p>
@@ -109,7 +109,7 @@ iOS, Jun. 2012 - Present
 </p>
 
 <p>
-<b>Couse Scheduler</b>,
+<b>Course Scheduler</b>,
 User Intefaces - Android, Jan. 2012 - Apr. 2012
 <ul>
 <li>Developed an Android app to allow users to select courses and organize their schedule</li>
