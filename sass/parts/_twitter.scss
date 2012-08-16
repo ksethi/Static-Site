@@ -13,6 +13,12 @@
 	a{
 		color: $color-gray02;
 	}
+	.name{
+		position: relative;
+		top: 5px;
+		left: 0;
+		bottom: 0;
+	}
 	small{
 		position: relative;
 		padding-top: 5px;
@@ -24,13 +30,10 @@
 		text-indent: -9999px;
 	}
 	.container{
-		border: 1px hidden #A68693;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-        	border-radius: 5px;
-		-moz-box-shadow: 4px 5px 19px #000000;
-		-webkit-box-shadow: 4px 5px 19px #000000;
-		box-shadow: 4px 5px 19px #000000;
+		border: 1px solid #666;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+        	border-radius: 10px;
 
 		height:70px;
 		width: 260px;
@@ -38,6 +41,7 @@
 		position: relative;
 		display: none;
 		.feed{
+			padding-top:5px;
 			list-style: none;
 			position: absolute;
 			top: 0;
@@ -45,12 +49,13 @@
 			width: 100%;
 			li{
 				height: 70px;
-				padding-left: 5px;
+				padding-left: 10px;
 			        margin-right: 10px;
 				position: relative;
 				small{
 					position: relative;
 					left: 5px;
+					padding-left: 5px;
 				}
 			}
 		}

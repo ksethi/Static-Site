@@ -168,7 +168,7 @@ Foundations of Sequential Programs, Sep. 2010 - Dec. 2010
 </ul>
 </p>
 </div>
-
+<br>
 </div>
 
 </body>
