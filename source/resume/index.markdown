@@ -46,7 +46,7 @@ Xtreme Labs Inc., Toronto, ON, Apr. 2012 - Aug. 2012
 <b>Agile Engineer</b>,
 Xtreme Labs Inc., Toronto, ON, Sep. 2011 - Dec. 2011
 <ul>
-<li>Created and iPad game in a team of 4 developers using the Cocos2D UI framework</li>
+<li>Created an iPad game in a team of 4 developers using the Cocos2D UI framework</li>
 <li>Customized the Cocos-Denshions library to provide seamless music transitions across multiple files</li>
 <li>Developed models to parse JSON feeds to generate game levels</li>
 <li>Twistile is available in the App Store</li>

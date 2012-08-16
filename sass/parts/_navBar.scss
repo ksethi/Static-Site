@@ -1,7 +1,7 @@
 .navBar{
   
   background-image: url('/images/navBar.png');
-  
+  z-index: 5; 
   -webkit-box-shadow: 2px 1px 15px 0px rgba(0,0,0,0.9);
   box-shadow: 2px 1 px 15 px 10px rgba(0,0,0,0.9);
   position:fixed;
