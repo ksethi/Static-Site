@@ -3,7 +3,7 @@ layout: post
 title: "The Importance of Planning"
 date: 2012-08-15 20:18
 comments: true
-categories: TECHNOLOGY
+categories: TECHNOLOGY  planning balsamiq trello pivotal tracker invision
 author: Kshitij Sethi
 published: true
 ---
@@ -21,7 +21,7 @@ Fleshing out an idea can also help you pitch it to prospective collaborators. Th
 
 ***The methods discussed within this post are heavily skewed towards the agile development methodology.***
 
-At the planing stage, it is important to consider several factors that could heavily affect the outcome of your product.
+At the planning stage, it is important to consider several factors that could heavily affect the outcome of your product.
 When building my website I had to take the following 3 factors into account.
 
 + **Features:**

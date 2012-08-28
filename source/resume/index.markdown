@@ -7,7 +7,7 @@ title: "Resume"
 <title>Resume - Kshitij Sethi</title>
 </head>
 
-<body>
+<body style="background-image:none;">
 <div class="resume">
 <div class="header">
 <h1>Kshitij Sethi</h1>
@@ -145,14 +145,14 @@ Foundations of Sequential Programs, Sep. 2010 - Dec. 2010
 </div>
 
 
-<div id="awards" class="content">
-<h2>Awards and Certifications</h2>
+<div id="courses" class="content">
+<h2>Relevant Courses</h2>
 <p>
 <ul>
-<li>President's Scholarship, University of Waterloo, Waterloo, ON, May 2009</li>
-<li>Third place Ontario Mock Trial Championships, Ontario Bar Association (OBA), ON, Apr. 2009</li>
-<li>School First Place 2008 Physics Contest, Ontario Association for Physics Teachers, ON, May 2008</li>
-<li>Received academic honors in high school through several subject achievement awards.</li>
+<li class="column1">CS 341: Algorithms - Winter 2012</li>
+<li class="column1">CS 349: User Interfaces - Winter 2012</li>
+<li class="column2 reset">SE 350: Operating Systems - Winter 2012</li>
+<li class="column2">CS 240: Data Structures - Spring 2011</li>
 </ul>
 </p>
 </div>
