@@ -1,39 +1,48 @@
 .navBar{
   
-  background-image: url('/images/navBar.png');
+  background-image: url('/images/background.png');
   z-index: 5; 
   -webkit-box-shadow: 2px 1px 15px 0px rgba(0,0,0,0.9);
   box-shadow: 2px 1 px 15 px 10px rgba(0,0,0,0.9);
   position:fixed;
-  margin:0;
   top:0;
-  left:0;
-  padding-left:20px;
-  padding-right:20px;
-  width: 20%;
-  height:100%;
+  margin-left:10%;
+  margin-right:10%;
+  width: 80%;
+  height: 120px;
   h1 { font-family: 'Righteous', cursive;  }
-
-  .profile{
-    display: block;
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+  .center{
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
     text-align: center;
+  }
+  .profile{
+    position: fixed;
+    padding-left: 5%;
+    display: block; 
+    top: 2%;
+    font-size: 18px;
+    width: 25%;
   } 
   .page-links{  
+    margin-top: 5%;
     ul{
       list-style-type: none;
-      padding-left: 10%;
-      width: 80%;
-      margin-left: 0;
-      text-align: center;
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align:center;
     }
     .link{
      opacity:0.7;
-     padding-top: 2%;
-     padding-bottom: 2%;
-     margin-top: 5%;
+     width: 12%;
+     padding-top: 1%;
+     padding-bottom: 1%;
      -moz-transition: opacity .1s;
      -webkit-transition: opacity .1s;
      -o-transition: opacity .1s;
@@ -41,7 +50,7 @@
      font-weight: bold;
      font-family: 'Righteous' , cursive;
      text-decoration: none;
-     border: solid 1px #666;
+     border: hidden 1px #666;
      -moz-border-radius: 10px;
      -webkit-border-radius: 10px;
      border-radius: 10px;
@@ -55,11 +64,15 @@
     }
   }
   .ext-links{
+    position: fixed;
+    top: 2%;
+    left: 55%;
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    text-align: center;
+    text-align: right;
+    width: 30%;
+    float:right;
     img {
      opacity:0.7;
      -moz-transition: opacity .1s;
