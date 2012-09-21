@@ -3,5 +3,6 @@ layout: default
 ---
 
 {% for post in site.posts reverse %}
+	{% capture category %}{{post.categories[0]}}{% endcapture %}
 	{% include archive_post.html %}
 {% endfor %}

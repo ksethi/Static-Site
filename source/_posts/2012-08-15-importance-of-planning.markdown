@@ -3,7 +3,7 @@ layout: post
 title: "The Importance of Planning"
 date: 2012-08-15 20:18
 comments: true
-categories: TECHNOLOGY  planning balsamiq trello pivotal tracker invision
+categories: TECHNOLOGY
 author: Kshitij Sethi
 published: true
 ---

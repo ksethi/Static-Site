@@ -18,7 +18,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: contact@kjsethi.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -31,7 +31,7 @@ source: source
 destination: /var/www/
 plugins: plugins
 code_dir: downloads/code
-category_dir: blog/categories
+category_dir: 
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 
